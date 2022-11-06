@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coordinador.cs" />
+    <Compile Include="Director.cs" />
+    <Compile Include="Ejecutivo.cs" />
+    <Compile Include="Pedido.cs" />
+    <Compile Include="Presidente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
