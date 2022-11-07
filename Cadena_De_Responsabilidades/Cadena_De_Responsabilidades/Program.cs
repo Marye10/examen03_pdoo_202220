@@ -8,7 +8,7 @@ namespace Cadena_De_Responsabilidades
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static public void Main(string[] args)
         {
             Console.WriteLine("Patrón GoF - Cadena de Responsabilidad");
             Console.WriteLine("Aprobación de Pedidos");
@@ -64,6 +64,31 @@ namespace Cadena_De_Responsabilidades
 
                 //4 - Iniciar la cadena de aprobación según la jerarquía de ejecutivos
                 JerarquiaEjecutivos[0].ProcesaPedido(elPedido);
+
+                //4.5 quién aprueba el pedido?
+               string AprobacionPedido()
+                {
+                    string quienAprobo;
+                    //si el monto es menor que JerarquiaEjecutivo[0], es aprobado por coordinador
+                    if (JerarquiaEjecutivos[0].Monto > elPedido.Valor)
+                    {
+                        quienAprobo = "Coordinador";
+                    }
+                    //si el monto es mayor que JerarquiaEjecutivo[0], es aprobado por director
+                    if (JerarquiaEjecutivos[0].Monto < elPedido.Valor)
+                    {
+                        quienAprobo = "Director";
+                    }
+                    //si el monto es mayor que JerarquiaEjecutivo[1], es aprobado por presidente
+                    if (JerarquiaEjecutivos[1].Monto > elPedido.Valor)
+                    {
+                        quienAprobo = "Presidente";
+                    }  
+
+                    Console.WriteLine($"El pedido fue aprobado por {quienAprobo}");
+                }
+
+             
 
                 //5 - Visualizar resultados de la aprobación
                 Console.WriteLine($"El resultado del proceso de validación es \n" +
