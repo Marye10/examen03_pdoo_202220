@@ -89,7 +89,7 @@ namespace Cadena_De_Responsabilidades
                 {
                     quienAprobo = unPedido.Aprobador;
                 }
-                return quienAprobo;
+                return unPedido.Aprobador;
             }
 
             //Evalua si la jerarquia es válida para aprobar pedidos
