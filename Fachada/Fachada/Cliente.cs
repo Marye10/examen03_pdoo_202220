@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fachada
 {
-    internal class Cliente
+    public class Cliente
     {
         //Atributos de la clase
         private string nombre;

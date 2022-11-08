@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fachada
 {
-    internal class EntidadCrediticia
+    public class EntidadCrediticia
     {
         //atributos de la clase
         private Cliente elCliente;
@@ -61,6 +61,7 @@ namespace Fachada
             elDeptoJuridico.AsignaEstadoSolicitud(elCliente);
         }
 
+        //Talvez podamos hacer las pruebas unitarias aquí
         public string ObtieneResultadoValidacion()
         {
             StringBuilder resultado = new StringBuilder();
