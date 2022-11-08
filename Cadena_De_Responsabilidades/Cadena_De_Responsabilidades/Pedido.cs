@@ -9,8 +9,8 @@ namespace Cadena_De_Responsabilidades
     public class Pedido
     {
         //atributos de la clase
-        private string aprobador;
-        private int valor;
+        public string aprobador;
+        public int valor;
 
         //constructor de la clase
         public Pedido()
