@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32630.192
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadena_De_Responsabilidades", "Cadena_De_Responsabilidades\Cadena_De_Responsabilidades.csproj", "{D7E22D7C-9840-4667-A6CB-434F49CDAD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaAprobacionTests", "PruebaAprobacionTests\PruebaAprobacionTests.csproj", "{8BA71A4E-1823-4BA5-AA8C-25A6C9805922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D7E22D7C-9840-4667-A6CB-434F49CDAD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7E22D7C-9840-4667-A6CB-434F49CDAD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7E22D7C-9840-4667-A6CB-434F49CDAD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA71A4E-1823-4BA5-AA8C-25A6C9805922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA71A4E-1823-4BA5-AA8C-25A6C9805922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA71A4E-1823-4BA5-AA8C-25A6C9805922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA71A4E-1823-4BA5-AA8C-25A6C9805922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
