@@ -11,12 +11,18 @@ namespace Cadena_De_Responsabilidades
         //atributos de la clase
         public string aprobador;
         public int valor;
+        Ejecutivo[] unEjecutivo;
 
         //constructor de la clase
         public Pedido()
         {
             aprobador = "sin aprobación";
             valor = 0;
+        }
+
+        public Pedido(Ejecutivo[] arregloEjecutivos, string nombre, string cargo, int monto)
+        {
+            
         }
 
         //Propiedades para los atributos
