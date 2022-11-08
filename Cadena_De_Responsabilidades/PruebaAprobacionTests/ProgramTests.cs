@@ -17,12 +17,13 @@ namespace AprobacionDirectior.Tests
             //Arrange
             Ejecutivo[] unEjecutivo =
             {
-               new Director() {Nombre = "Elvis Presley", Monto = 0},
-               new Presidente() {Nombre = "Jerry Lee Lewis", Monto = 0},
-               new Coordinador() {Nombre = "Frank Sinatra", Monto = 0}
+               new Director() {Nombre = "Elvis Presley", Monto = 2000000},
+               new Presidente() {Nombre = "Jerry Lee Lewis", Monto = 3000000},
+               new Coordinador() {Nombre = "Frank Sinatra", Monto = 100000}
             };
 
             Pedido pruebaPedido = new Pedido();
+            valor.Pedido() = 150000;
 
             //Act
             string aprobadorEsperado = Program.Main(AprobacionPedido("Director"));
